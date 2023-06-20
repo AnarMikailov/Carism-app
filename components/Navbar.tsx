@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import CustomButton from './CustomButton';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import CustomButton from "./CustomButton";
 const Navbar = () => {
   return (
     <header className="w-full absolute z-10">
@@ -17,7 +17,7 @@ const Navbar = () => {
         </Link>
         <CustomButton
           title="Sign in"
-          btntype="button"
+          btnType="button"
           containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
         />
       </nav>
